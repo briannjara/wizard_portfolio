@@ -1,6 +1,6 @@
 import Image from "next/image";
 import bg from "../../../../public/background/projects-background.png";
-import ProjectList from "@/components/projects";
+import ProjectList from "@/components/projects/Index";
 import { projectsData } from "../../data";
 import RenderModel from "@/components/RenderModel";
 // import Staff from "@/components/models/Staff";
