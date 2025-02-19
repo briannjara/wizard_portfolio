@@ -49,8 +49,8 @@ const AboutDetails = () => {
         >
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=briannjara27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs/?username=briannjara&size_weight=0.5&count_weight=0.5&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFF`}
+            alt="GitHub Stats"
             loading="lazy"
           />
         </ItemLayout>
@@ -58,8 +58,8 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=briannjara27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=briannjara&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
+            alt="Njaramba"
             loading="lazy"
           />
         </ItemLayout>
@@ -68,7 +68,7 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
-            alt="CodeBucks"
+            alt="Njaramba"
             loading="lazy"
           />
         </ItemLayout>
@@ -76,8 +76,8 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=codebucks27&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
-            alt="CodeBucks"
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=briannjara&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D&ring=FEFE5B&fire=FEFE5B&currStreakLabel=FEFE5B&background=EB545400&sideNums=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF&currStreakNum=EBDD35`}
+            alt="GitHub Streak Stats"
             loading="lazy"
           />
         </ItemLayout>
@@ -90,8 +90,8 @@ const AboutDetails = () => {
           >
             <img
               className="w-full h-auto"
-              src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=codebucks27&repo=Nextjs-contentlayer-blog&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
-              alt="CodeBucks"
+              src="https://github-profile-trophy.vercel.app/?username=briannjara&theme=onestar&no-bg=true&no-frame=true&column=7"
+              alt="GitHub Trophies"
               loading="lazy"
             />
           </Link>
